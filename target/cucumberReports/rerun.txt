@@ -1,0 +1,2 @@
+file:src/main/resources/features/F12_FollowUs.feature:19
+file:src/main/resources/features/F11_Slider.feature:11

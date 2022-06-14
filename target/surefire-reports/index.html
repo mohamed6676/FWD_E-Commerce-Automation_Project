@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-org_example_Runner_Runner">
+              <span class="suite-name border-failed">org.example.Runner.Runner</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-org_example_Runner_Runner">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-org_example_Runner_Runner">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-org_example_Runner_Runner">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-org_example_Runner_Runner">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-org_example_Runner_Runner">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-org_example_Runner_Runner">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-org_example_Runner_Runner">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods, 2 failed,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-org_example_Runner_Runner" class="hide-methods failed suite-org_example_Runner_Runner"> (hide)</a> <!-- hide-methods failed suite-org_example_Runner_Runner -->
+                      <a href="#" panel-name="suite-org_example_Runner_Runner" class="show-methods failed suite-org_example_Runner_Runner"> (show)</a> <!-- show-methods failed suite-org_example_Runner_Runner -->
+                    </span>
+                    <div class="method-list-content failed suite-org_example_Runner_Runner">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;user could click on page sliders&quot;, &quot;Optional[Slider|| user could click on page sliders]&quot;)">runScenario("user could click on page sliders", "Optional[Slider|| user could click on page sliders]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;User Follow rss&quot;, &quot;Optional[Follow Us|| user could follow site social accounts]&quot;)">runScenario("User Follow rss", "Optional[Follow Us|| user could follow site social accounts]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-org_example_Runner_Runner -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-org_example_Runner_Runner" class="hide-methods passed suite-org_example_Runner_Runner"> (hide)</a> <!-- hide-methods passed suite-org_example_Runner_Runner -->
+                      <a href="#" panel-name="suite-org_example_Runner_Runner" class="show-methods passed suite-org_example_Runner_Runner"> (show)</a> <!-- show-methods passed suite-org_example_Runner_Runner -->
+                    </span>
+                    <div class="method-list-content passed suite-org_example_Runner_Runner">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;user could choose different categories&quot;, &quot;Optional[Choosing Categories|| User could choose differen...)">runScenario("user could choose different categories", "Optional[Choosing Categories|| User could choose differen...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;User Follow youtube&quot;, &quot;Optional[Follow Us|| user could follow site social accounts]&quot;)">runScenario("User Follow youtube", "Optional[Follow Us|| user could follow site social accounts]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;Logged user could search products&quot;, &quot;Optional[Search|| User could search of products]&quot;)">runScenario("Logged user could search products", "Optional[Search|| User could search of products]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;user could add products to wishlist&quot;, &quot;Optional[WishList|| user could add products to the wishlist]...)">runScenario("user could add products to wishlist", "Optional[WishList|| user could add products to the wishlist]...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;user could login with valid data&quot;, &quot;Optional[Login|| user could login to the site]&quot;)">runScenario("user could login with valid data", "Optional[Login|| user could login to the site]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;Logged user could search products&quot;, &quot;Optional[Search|| User could search of products]&quot;)">runScenario("Logged user could search products", "Optional[Search|| User could search of products]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;logged user could switch between currencies&quot;, &quot;Optional[Switch Currency|| user could switch between...)">runScenario("logged user could switch between currencies", "Optional[Switch Currency|| user could switch between...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;user could login with invalid data&quot;, &quot;Optional[Login|| user could login to the site]&quot;)">runScenario("user could login with invalid data", "Optional[Login|| user could login to the site]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;Logged user could search products&quot;, &quot;Optional[Search|| User could search of products]&quot;)">runScenario("Logged user could search products", "Optional[Search|| User could search of products]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;Logged user could search products&quot;, &quot;Optional[Search|| User could search of products]&quot;)">runScenario("Logged user could search products", "Optional[Search|| User could search of products]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;user could add products to the Cart&quot;, &quot;Optional[Cart || user could add products to Shopping Cart]&quot;)">runScenario("user could add products to the Cart", "Optional[Cart || user could add products to Shopping Cart]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;Logged user could search products&quot;, &quot;Optional[Search|| User could search of products]&quot;)">runScenario("Logged user could search products", "Optional[Search|| User could search of products]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;Logged user could search products&quot;, &quot;Optional[Search|| User could search of products]&quot;)">runScenario("Logged user could search products", "Optional[Search|| User could search of products]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;user could filter with color&quot;, &quot;Optional[Filter with Color|| User could filter with color]&quot;)">runScenario("user could filter with color", "Optional[Filter with Color|| User could filter with color]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;User Follow Twitter&quot;, &quot;Optional[Follow Us|| user could follow site social accounts]&quot;)">runScenario("User Follow Twitter", "Optional[Follow Us|| user could follow site social accounts]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;user could reset his password&quot;, &quot;Optional[Forgot Password|| User could reset his password]&quot;)">runScenario("user could reset his password", "Optional[Forgot Password|| User could reset his password]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;user could register entering valid data&quot;, &quot;Optional[Registeration|| user could register to the site...)">runScenario("user could register entering valid data", "Optional[Registeration|| user could register to the site...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;user could select different tags on the site&quot;, &quot;Optional[Different Tags|| user could select differe...)">runScenario("user could select different tags on the site", "Optional[Different Tags|| user could select differe...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;User Follow Facebook&quot;, &quot;Optional[Follow Us|| user could follow site social accounts]&quot;)">runScenario("User Follow Facebook", "Optional[Follow Us|| user could follow site social accounts]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-org_example_Runner_Runner -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-org_example_Runner_Runner" class="panel org_example_Runner_Runner">
+          <div class="suite-org_example_Runner_Runner-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.example.Runner.Runner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could click on page sliders&quot;, &quot;Optional[Slider|| user could click on page sliders]&quot;)">
+                  </a> <!-- runScenario("user could click on page sliders", "Optional[Slider|| user could click on page sliders]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could click on page sliders", "Optional[Slider|| user could click on page sliders]")</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error in product link expected [true] but found [false]
+	at org.example.StepDefinition.D11_SliderStepDef.navigated_slider_product_one(D11_SliderStepDef.java:22)
+	at ✽.should navigated to the slider_product_one page(file:///C:/Users/Mohamed/IdeaProjects/demoNopcommerceProject/src/main/resources/features/F11_Slider.feature:13)
+... Removed 3 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User Follow rss&quot;, &quot;Optional[Follow Us|| user could follow site social accounts]&quot;)">
+                  </a> <!-- runScenario("User Follow rss", "Optional[Follow Us|| user could follow site social accounts]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User Follow rss", "Optional[Follow Us|| user could follow site social accounts]")</span>
+                  <div class="stack-trace">java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
+	at java.util.ArrayList.get(ArrayList.java:435)
+	at org.example.StepDefinition.D12_FollowUsStepDef.click_rss(D12_FollowUsStepDef.java:55)
+	at ✽.user click on rss(file:///C:/Users/Mohamed/IdeaProjects/demoNopcommerceProject/src/main/resources/features/F12_FollowUs.feature:20)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-org_example_Runner_Runner-class-failed -->
+          <div class="suite-org_example_Runner_Runner-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.example.Runner.Runner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could choose different categories&quot;, &quot;Optional[Choosing Categories|| User could choose differen...)">
+                  </a> <!-- runScenario("user could choose different categories", "Optional[Choosing Categories|| User could choose differen...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could choose different categories", "Optional[Choosing Categories|| User could choose different categories]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User Follow youtube&quot;, &quot;Optional[Follow Us|| user could follow site social accounts]&quot;)">
+                  </a> <!-- runScenario("User Follow youtube", "Optional[Follow Us|| user could follow site social accounts]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User Follow youtube", "Optional[Follow Us|| user could follow site social accounts]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Logged user could search products&quot;, &quot;Optional[Search|| User could search of products]&quot;)">
+                  </a> <!-- runScenario("Logged user could search products", "Optional[Search|| User could search of products]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Logged user could search products", "Optional[Search|| User could search of products]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could add products to wishlist&quot;, &quot;Optional[WishList|| user could add products to the wishlist]...)">
+                  </a> <!-- runScenario("user could add products to wishlist", "Optional[WishList|| user could add products to the wishlist]...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could add products to wishlist", "Optional[WishList|| user could add products to the wishlist]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could login with valid data&quot;, &quot;Optional[Login|| user could login to the site]&quot;)">
+                  </a> <!-- runScenario("user could login with valid data", "Optional[Login|| user could login to the site]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could login with valid data", "Optional[Login|| user could login to the site]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Logged user could search products&quot;, &quot;Optional[Search|| User could search of products]&quot;)">
+                  </a> <!-- runScenario("Logged user could search products", "Optional[Search|| User could search of products]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Logged user could search products", "Optional[Search|| User could search of products]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;logged user could switch between currencies&quot;, &quot;Optional[Switch Currency|| user could switch between...)">
+                  </a> <!-- runScenario("logged user could switch between currencies", "Optional[Switch Currency|| user could switch between...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("logged user could switch between currencies", "Optional[Switch Currency|| user could switch between currencies]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could login with invalid data&quot;, &quot;Optional[Login|| user could login to the site]&quot;)">
+                  </a> <!-- runScenario("user could login with invalid data", "Optional[Login|| user could login to the site]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could login with invalid data", "Optional[Login|| user could login to the site]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Logged user could search products&quot;, &quot;Optional[Search|| User could search of products]&quot;)">
+                  </a> <!-- runScenario("Logged user could search products", "Optional[Search|| User could search of products]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Logged user could search products", "Optional[Search|| User could search of products]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Logged user could search products&quot;, &quot;Optional[Search|| User could search of products]&quot;)">
+                  </a> <!-- runScenario("Logged user could search products", "Optional[Search|| User could search of products]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Logged user could search products", "Optional[Search|| User could search of products]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could add products to the Cart&quot;, &quot;Optional[Cart || user could add products to Shopping Cart]&quot;)">
+                  </a> <!-- runScenario("user could add products to the Cart", "Optional[Cart || user could add products to Shopping Cart]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could add products to the Cart", "Optional[Cart || user could add products to Shopping Cart]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Logged user could search products&quot;, &quot;Optional[Search|| User could search of products]&quot;)">
+                  </a> <!-- runScenario("Logged user could search products", "Optional[Search|| User could search of products]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Logged user could search products", "Optional[Search|| User could search of products]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Logged user could search products&quot;, &quot;Optional[Search|| User could search of products]&quot;)">
+                  </a> <!-- runScenario("Logged user could search products", "Optional[Search|| User could search of products]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Logged user could search products", "Optional[Search|| User could search of products]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could filter with color&quot;, &quot;Optional[Filter with Color|| User could filter with color]&quot;)">
+                  </a> <!-- runScenario("user could filter with color", "Optional[Filter with Color|| User could filter with color]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could filter with color", "Optional[Filter with Color|| User could filter with color]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User Follow Twitter&quot;, &quot;Optional[Follow Us|| user could follow site social accounts]&quot;)">
+                  </a> <!-- runScenario("User Follow Twitter", "Optional[Follow Us|| user could follow site social accounts]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User Follow Twitter", "Optional[Follow Us|| user could follow site social accounts]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could reset his password&quot;, &quot;Optional[Forgot Password|| User could reset his password]&quot;)">
+                  </a> <!-- runScenario("user could reset his password", "Optional[Forgot Password|| User could reset his password]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could reset his password", "Optional[Forgot Password|| User could reset his password]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could register entering valid data&quot;, &quot;Optional[Registeration|| user could register to the site...)">
+                  </a> <!-- runScenario("user could register entering valid data", "Optional[Registeration|| user could register to the site...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could register entering valid data", "Optional[Registeration|| user could register to the site]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;user could select different tags on the site&quot;, &quot;Optional[Different Tags|| user could select differe...)">
+                  </a> <!-- runScenario("user could select different tags on the site", "Optional[Different Tags|| user could select differe...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("user could select different tags on the site", "Optional[Different Tags|| user could select different tags]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;User Follow Facebook&quot;, &quot;Optional[Follow Us|| user could follow site social accounts]&quot;)">
+                  </a> <!-- runScenario("User Follow Facebook", "Optional[Follow Us|| user could follow site social accounts]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("User Follow Facebook", "Optional[Follow Us|| user could follow site social accounts]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-org_example_Runner_Runner-class-passed -->
+        </div> <!-- panel org_example_Runner_Runner -->
+        <div panel-name="test-xml-org_example_Runner_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;org.example.Runner.Runner&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Command line test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.example.Runner.Runner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- org.example.Runner.Runner --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-org_example_Runner_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for org.example.Runner.Runner</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-org_example_Runner_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for org.example.Runner.Runner</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-org_example_Runner_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for org.example.Runner.Runner</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_org_example_Runner_Runner');
+function tableData_org_example_Runner_Runner() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'org.example.Runner.Runner')
+data.setCell(0, 3, 52217);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'org.example.Runner.Runner')
+data.setCell(1, 3, 48605);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'org.example.Runner.Runner')
+data.setCell(2, 3, 43319);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'org.example.Runner.Runner')
+data.setCell(3, 3, 39387);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'org.example.Runner.Runner')
+data.setCell(4, 3, 35353);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'org.example.Runner.Runner')
+data.setCell(5, 3, 32880);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'org.example.Runner.Runner')
+data.setCell(6, 3, 29532);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'org.example.Runner.Runner')
+data.setCell(7, 3, 28433);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'org.example.Runner.Runner')
+data.setCell(8, 3, 28215);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'org.example.Runner.Runner')
+data.setCell(9, 3, 28058);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'org.example.Runner.Runner')
+data.setCell(10, 3, 28055);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'org.example.Runner.Runner')
+data.setCell(11, 3, 27899);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'org.example.Runner.Runner')
+data.setCell(12, 3, 27703);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'org.example.Runner.Runner')
+data.setCell(13, 3, 27207);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'org.example.Runner.Runner')
+data.setCell(14, 3, 27037);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'org.example.Runner.Runner')
+data.setCell(15, 3, 26388);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'org.example.Runner.Runner')
+data.setCell(16, 3, 25297);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runScenario')
+data.setCell(17, 2, 'org.example.Runner.Runner')
+data.setCell(17, 3, 23710);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runScenario')
+data.setCell(18, 2, 'org.example.Runner.Runner')
+data.setCell(18, 3, 22703);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runScenario')
+data.setCell(19, 2, 'org.example.Runner.Runner')
+data.setCell(19, 3, 22255);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'runScenario')
+data.setCell(20, 2, 'org.example.Runner.Runner')
+data.setCell(20, 3, 19602);
+window.suiteTableData['org_example_Runner_Runner']= { tableData: data, tableDiv: 'times-div-org_example_Runner_Runner'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 minutes</span>
+              <div id="times-div-org_example_Runner_Runner">
+              </div> <!-- times-div-org_example_Runner_Runner -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-org_example_Runner_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for org.example.Runner.Runner</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-org_example_Runner_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-org_example_Runner_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.example.Runner.Runner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@7157413e)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user could register entering valid data", "Optional[Registeration|| user could register to the site...)</span>
+                <span class="method-start">2306 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user could login with valid data", "Optional[Login|| user could login to the site]")</span>
+                <span class="method-start">30262 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user could login with invalid data", "Optional[Login|| user could login to the site]")</span>
+                <span class="method-start">52518 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user could reset his password", "Optional[Forgot Password|| User could reset his password]")</span>
+                <span class="method-start">72121 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Logged user could search products", "Optional[Search|| User could search of products]")</span>
+                <span class="method-start">97420 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Logged user could search products", "Optional[Search|| User could search of products]")</span>
+                <span class="method-start">125854 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Logged user could search products", "Optional[Search|| User could search of products]")</span>
+                <span class="method-start">153913 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Logged user could search products", "Optional[Search|| User could search of products]")</span>
+                <span class="method-start">181618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Logged user could search products", "Optional[Search|| User could search of products]")</span>
+                <span class="method-start">209833 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Logged user could search products", "Optional[Search|| User could search of products]")</span>
+                <span class="method-start">236224 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("logged user could switch between currencies", "Optional[Switch Currency|| user could switch between...)</span>
+                <span class="method-start">264280 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user could choose different categories", "Optional[Choosing Categories|| User could choose differen...)</span>
+                <span class="method-start">297161 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user could filter with color", "Optional[Filter with Color|| User could filter with color]")</span>
+                <span class="method-start">345768 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user could select different tags on the site", "Optional[Different Tags|| user could select differe...)</span>
+                <span class="method-start">375301 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user could add products to the Cart", "Optional[Cart || user could add products to Shopping Cart]")</span>
+                <span class="method-start">418620 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("user could add products to wishlist", "Optional[WishList|| user could add products to the wishlist]...)</span>
+                <span class="method-start">458011 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("user could click on page sliders", "Optional[Slider|| user could click on page sliders]")</span>
+                <span class="method-start">510229 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User Follow Facebook", "Optional[Follow Us|| user could follow site social accounts]")</span>
+                <span class="method-start">537439 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User Follow Twitter", "Optional[Follow Us|| user could follow site social accounts]")</span>
+                <span class="method-start">561151 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("User Follow rss", "Optional[Follow Us|| user could follow site social accounts]")</span>
+                <span class="method-start">588189 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("User Follow youtube", "Optional[Follow Us|| user could follow site social accounts]")</span>
+                <span class="method-start">610895 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">646254 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

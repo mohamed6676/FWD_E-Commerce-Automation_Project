@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="21" failures="2" name="org.example.Runner.Runner" time="643.873" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2022.1.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\bin"/>
+    <property name="java.vm.version" value="25.333-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Mohamed\IdeaProjects\demoNopcommerceProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Mohamed\IdeaProjects\demoNopcommerceProject"/>
+    <property name="java.runtime.version" value="1.8.0_333-b02"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_333\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Mohamed\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_333\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\msys64\usr\bin;C:\MinGW\bin;C:\Users\Mohamed\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk1.8.0_333\bin;C:\Users\Mohamed\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\Mohamed\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\bin;;C:\Users\Mohamed\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Mohamed\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Mohamed"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Mohamed"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_333\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.1.2 verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_333"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_333\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_333\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="27.937"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="22.261"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="19.592"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="25.389"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="28.343"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="28.059"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="27.831"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="28.088"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="26.402"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="28.041"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="32.879"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="48.606"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="29.532"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="43.318"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="39.421"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="52.219"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="27.181">
+    <failure message="Error in product link expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Error in product link expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.example.StepDefinition.D11_SliderStepDef.navigated_slider_product_one(D11_SliderStepDef.java:22)
+	at ✽.should navigated to the slider_product_one page(file:///C:/Users/Mohamed/IdeaProjects/demoNopcommerceProject/src/main/resources/features/F11_Slider.feature:13)
+</failure>
+    <system-out>
+@Runner
+Scenario: user could click on page sliders                        &amp;#27;[90m# src/main/resources/features/F11_Slider.feature:11&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32muser navigate to Home page&amp;#27;[0m                                &amp;#27;[90m# org.example.StepDefinition.D02_LoginStepDef.user_navigate_to_Home_page()&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32muser click on login&amp;#27;[0m                                         &amp;#27;[90m# org.example.StepDefinition.D02_LoginStepDef.user_click_on_login()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32muser enter valid &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mtest133@gmail.com&amp;#27;[0m&amp;#27;[32m&quot; and valid &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mQwert6613&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m &amp;#27;[90m# org.example.StepDefinition.D02_LoginStepDef.user_enter_valid_email(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32muser clicks login button&amp;#27;[0m                                    &amp;#27;[90m# org.example.StepDefinition.D02_LoginStepDef.user_clicks_login_button()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32muser logged in successfully&amp;#27;[0m                                &amp;#27;[90m# org.example.StepDefinition.D02_LoginStepDef.user_logged_in_successfully()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32muser click on buton_one and click on slider_one&amp;#27;[0m            &amp;#27;[90m# org.example.StepDefinition.D11_SliderStepDef.click_slider_one()&amp;#27;[0m
+  &amp;#27;[31mAnd &amp;#27;[0m&amp;#27;[31mshould navigated to the slider_product_one page&amp;#27;[0m             &amp;#27;[90m# org.example.StepDefinition.D11_SliderStepDef.navigated_slider_product_one()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: Error in product link expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.example.StepDefinition.D11_SliderStepDef.navigated_slider_product_one(D11_SliderStepDef.java:22)
+	at ✽.should navigated to the slider_product_one page(file:///C:/Users/Mohamed/IdeaProjects/demoNopcommerceProject/src/main/resources/features/F11_Slider.feature:13)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser click on buton_two and click on slider_two&amp;#27;[0m            &amp;#27;[90m# org.example.StepDefinition.D11_SliderStepDef.click_slider_two()&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mshould navigated to the slider_product_two page&amp;#27;[0m             &amp;#27;[90m# org.example.StepDefinition.D11_SliderStepDef.navigated_slider_product_two()&amp;#27;[0m
+</system-out>
+    <system-err>Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 62684
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 15, 2022 12:39:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 15, 2022 12:39:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 102
+</system-err>
+  </testcase>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="23.679"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="27.034"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="22.722">
+    <failure message="Index: 1, Size: 1" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
+	at java.util.ArrayList.get(ArrayList.java:435)
+	at org.example.StepDefinition.D12_FollowUsStepDef.click_rss(D12_FollowUsStepDef.java:55)
+	at ✽.user click on rss(file:///C:/Users/Mohamed/IdeaProjects/demoNopcommerceProject/src/main/resources/features/F12_FollowUs.feature:20)
+</failure>
+    <system-out>
+@Runner
+Scenario: User Follow rss                                                      &amp;#27;[90m# src/main/resources/features/F12_FollowUs.feature:19&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32muser navigate to Home page&amp;#27;[0m                                             &amp;#27;[90m# org.example.StepDefinition.D02_LoginStepDef.user_navigate_to_Home_page()&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32muser click on login&amp;#27;[0m                                                      &amp;#27;[90m# org.example.StepDefinition.D02_LoginStepDef.user_click_on_login()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32muser enter valid &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mtest133@gmail.com&amp;#27;[0m&amp;#27;[32m&quot; and valid &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mQwert6613&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m              &amp;#27;[90m# org.example.StepDefinition.D02_LoginStepDef.user_enter_valid_email(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32muser clicks login button&amp;#27;[0m                                                 &amp;#27;[90m# org.example.StepDefinition.D02_LoginStepDef.user_clicks_login_button()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32muser logged in successfully&amp;#27;[0m                                             &amp;#27;[90m# org.example.StepDefinition.D02_LoginStepDef.user_logged_in_successfully()&amp;#27;[0m
+  &amp;#27;[31mWhen &amp;#27;[0m&amp;#27;[31muser click on rss&amp;#27;[0m                                                       &amp;#27;[90m# org.example.StepDefinition.D12_FollowUsStepDef.click_rss()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
+	at java.util.ArrayList.get(ArrayList.java:435)
+	at org.example.StepDefinition.D12_FollowUsStepDef.click_rss(D12_FollowUsStepDef.java:55)
+	at ✽.user click on rss(file:///C:/Users/Mohamed/IdeaProjects/demoNopcommerceProject/src/main/resources/features/F12_FollowUs.feature:20)
+&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mnavigated to rss &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mhttps://demo.nopcommerce.com/nopcommerce-new-release&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m &amp;#27;[90m# org.example.StepDefinition.D12_FollowUsStepDef.navigate_rss(java.lang.String)&amp;#27;[0m
+</system-out>
+    <system-err>Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 51570
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 15, 2022 12:40:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 15, 2022 12:40:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 102
+</system-err>
+  </testcase>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="35.339"/>
+</testsuite>
