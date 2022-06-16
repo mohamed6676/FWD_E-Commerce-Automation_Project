@@ -18,4 +18,10 @@ public class P04_Search {
         return searchbuton;
     }
 
+    public WebElement founded(){
+        By found=By.cssSelector("h2[class=\"product-title\"] a");
+        WebElement foundbuton=Hooks.driver.findElement(found);
+        return foundbuton;
+    }
+
 }

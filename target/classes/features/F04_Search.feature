@@ -21,13 +21,14 @@
     Scenario Outline: Logged user could search products
       When user click on search field
       And user enter "<search>" to search
-      Then user find one product
+      Then user find "<search>" product
 
       Examples:
         |search|
         |SCI_FAITH|
         |APPLE_CAM|
         |SF_PRO_11|
+        |AP_MBP_13|
 
 
 

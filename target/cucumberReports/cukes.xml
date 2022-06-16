@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="21" time="644.5">
-<testcase classname="Registeration|| user could register to the site" name="user could register entering valid data" time="27.4">
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="22" time="1,033.726">
+<testcase classname="Registeration|| user could register to the site" name="user could register entering valid data" time="96.876">
 <system-out><![CDATA[And user navigate to home page..............................................passed
 And user click register.....................................................passed
 When user fills gender"male" fname"Nada" lname"Magdi" day"10" month"9" year"1998" email"test19@gmail.com" valid data.passed
@@ -9,7 +9,7 @@ And user clicks register button.............................................pass
 Then success message is displayed...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login|| user could login to the site" name="user could login with valid data" time="21.895">
+<testcase classname="Login|| user could login to the site" name="user could login with valid data" time="37.479">
 <system-out><![CDATA[Given user navigate to Home page............................................passed
 And user click on login.....................................................passed
 When user enter valid "test133@gmail.com" and valid "Qwert6613".............passed
@@ -17,7 +17,7 @@ And user clicks login button................................................pass
 Then user logged in successfully............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Login|| user could login to the site" name="user could login with invalid data" time="19.55">
+<testcase classname="Login|| user could login to the site" name="user could login with invalid data" time="23.182">
 <system-out><![CDATA[Given user navigate to Home page............................................passed
 And user click on login.....................................................passed
 When user enter valid "test11@ail.com" and valid "613"......................passed
@@ -25,7 +25,7 @@ And user clicks login button................................................pass
 Then user could not login...................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Forgot Password|| User could reset his password" name="user could reset his password" time="25.275">
+<testcase classname="Forgot Password|| User could reset his password" name="user could reset his password" time="28.315">
 <system-out><![CDATA[Given user navigate to Login page...........................................passed
 And user click on forgot password...........................................passed
 And user enter his "test133@gmail.com"......................................passed
@@ -33,7 +33,7 @@ And user click on recovery..................................................pass
 Then email is sent to the user..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search|| User could search of products" name="Logged user could search products" time="28.334">
+<testcase classname="Search|| User could search of products" name="Logged user could search products" time="34.857">
 <system-out><![CDATA[Given user navigate to Home page............................................passed
 And user click on login.....................................................passed
 When user enter valid "test133@gmail.com" and valid "Qwert6613".............passed
@@ -44,7 +44,7 @@ And user enter "HTC" to search..............................................pass
 Then user find the product and relative products............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search|| User could search of products" name="Logged user could search products 2" time="28.031">
+<testcase classname="Search|| User could search of products" name="Logged user could search products 2" time="32.958">
 <system-out><![CDATA[Given user navigate to Home page............................................passed
 And user click on login.....................................................passed
 When user enter valid "test133@gmail.com" and valid "Qwert6613".............passed
@@ -55,7 +55,7 @@ And user enter "Apple" to search............................................pass
 Then user find the product and relative products............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search|| User could search of products" name="Logged user could search products 3" time="27.672">
+<testcase classname="Search|| User could search of products" name="Logged user could search products 3" time="35.022">
 <system-out><![CDATA[Given user navigate to Home page............................................passed
 And user click on login.....................................................passed
 When user enter valid "test133@gmail.com" and valid "Qwert6613".............passed
@@ -66,7 +66,7 @@ And user enter "nike" to search.............................................pass
 Then user find the product and relative products............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search|| User could search of products" name="Logged user could search products 4" time="28.073">
+<testcase classname="Search|| User could search of products" name="Logged user could search products 4" time="43.748">
 <system-out><![CDATA[Given user navigate to Home page............................................passed
 And user click on login.....................................................passed
 When user enter valid "test133@gmail.com" and valid "Qwert6613".............passed
@@ -74,10 +74,10 @@ And user clicks login button................................................pass
 Then user logged in successfully............................................passed
 When user click on search field.............................................passed
 And user enter "SCI_FAITH" to search........................................passed
-Then user find one product..................................................passed
+Then user find "SCI_FAITH" product..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search|| User could search of products" name="Logged user could search products 5" time="26.27">
+<testcase classname="Search|| User could search of products" name="Logged user could search products 5" time="54.789">
 <system-out><![CDATA[Given user navigate to Home page............................................passed
 And user click on login.....................................................passed
 When user enter valid "test133@gmail.com" and valid "Qwert6613".............passed
@@ -85,10 +85,10 @@ And user clicks login button................................................pass
 Then user logged in successfully............................................passed
 When user click on search field.............................................passed
 And user enter "APPLE_CAM" to search........................................passed
-Then user find one product..................................................passed
+Then user find "APPLE_CAM" product..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Search|| User could search of products" name="Logged user could search products 6" time="27.96">
+<testcase classname="Search|| User could search of products" name="Logged user could search products 6" time="45.234">
 <system-out><![CDATA[Given user navigate to Home page............................................passed
 And user click on login.....................................................passed
 When user enter valid "test133@gmail.com" and valid "Qwert6613".............passed
@@ -96,10 +96,21 @@ And user clicks login button................................................pass
 Then user logged in successfully............................................passed
 When user click on search field.............................................passed
 And user enter "SF_PRO_11" to search........................................passed
-Then user find one product..................................................passed
+Then user find "SF_PRO_11" product..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Switch Currency|| user could switch between currencies" name="logged user could switch between currencies" time="32.859">
+<testcase classname="Search|| User could search of products" name="Logged user could search products 7" time="51.919">
+<system-out><![CDATA[Given user navigate to Home page............................................passed
+And user click on login.....................................................passed
+When user enter valid "test133@gmail.com" and valid "Qwert6613".............passed
+And user clicks login button................................................passed
+Then user logged in successfully............................................passed
+When user click on search field.............................................passed
+And user enter "AP_MBP_13" to search........................................passed
+Then user find "AP_MBP_13" product..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Switch Currency|| user could switch between currencies" name="logged user could switch between currencies" time="48.134">
 <system-out><![CDATA[Given user navigate to Home page............................................passed
 And user click on login.....................................................passed
 When user enter valid "test133@gmail.com" and valid "Qwert6613".............passed
@@ -111,7 +122,7 @@ When user choose USD from dropdown menu.....................................pass
 Then usd is selected successfully...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Choosing Categories|| User could choose different categories" name="user could choose different categories" time="48.561">
+<testcase classname="Choosing Categories|| User could choose different categories" name="user could choose different categories" time="58.825">
 <system-out><![CDATA[Given user navigate to Home page............................................passed
 And user click on login.....................................................passed
 When user enter valid "test133@gmail.com" and valid "Qwert6613".............passed
@@ -123,7 +134,7 @@ And user select Electronics categories then cell phones subcategory.........pass
 And user choose Gift Cards categories.......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Filter with Color|| User could filter with color" name="user could filter with color" time="29.509">
+<testcase classname="Filter with Color|| User could filter with color" name="user could filter with color" time="42.83">
 <system-out><![CDATA[Given user navigate to Home page............................................passed
 And user click on login.....................................................passed
 When user enter valid "test133@gmail.com" and valid "Qwert6613".............passed
@@ -133,7 +144,7 @@ And user select shoes from apparel..........................................pass
 And filter by Red color.....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Different Tags|| user could select different tags" name="user could select different tags on the site" time="43.28">
+<testcase classname="Different Tags|| user could select different tags" name="user could select different tags on the site" time="56.101">
 <system-out><![CDATA[Given user navigate to Home page............................................passed
 And user click on login.....................................................passed
 When user enter valid "test133@gmail.com" and valid "Qwert6613".............passed
@@ -145,7 +156,7 @@ And select game from popular tags...........................................pass
 And select computer from popular tags.......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Cart || user could add products to Shopping Cart" name="user could add products to the Cart" time="39.343">
+<testcase classname="Cart || user could add products to Shopping Cart" name="user could add products to the Cart" time="54.392">
 <system-out><![CDATA[Given user navigate to Home page............................................passed
 Given user go to home page..................................................passed
 When user add HTC_M8Android to the cart.....................................passed
@@ -160,7 +171,7 @@ And user click add_to_cart button_3.........................................pass
 Then success message appears_3..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="WishList|| user could add products to the wishlist" name="user could add products to wishlist" time="52.179">
+<testcase classname="WishList|| user could add products to the wishlist" name="user could add products to wishlist" time="66.544">
 <system-out><![CDATA[Given user navigate to Home page............................................passed
 When click on HTC_One_M8_Android............................................passed
 And add HTC_One_M8_Android to wishlist......................................passed
@@ -175,7 +186,7 @@ And click on add_to_wishlist................................................pass
 Then success message appears__3.............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Slider|| user could click on page sliders" name="user could click on page sliders" time="27.176">
+<testcase classname="Slider|| user could click on page sliders" name="user could click on page sliders" time="43.54">
 <failure message="Error in product link expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[Given user navigate to Home page............................................passed
 And user click on login.....................................................passed
 When user enter valid "test133@gmail.com" and valid "Qwert6613".............passed
@@ -195,7 +206,7 @@ java.lang.AssertionError: Error in product link expected [true] but found [false
 	at ✽.should navigated to the slider_product_one page(file:///C:/Users/Mohamed/IdeaProjects/demoNopcommerceProject/src/main/resources/features/F11_Slider.feature:13)
 ]]></failure>
 </testcase>
-<testcase classname="Follow Us|| user could follow site social accounts" name="User Follow Facebook" time="23.662">
+<testcase classname="Follow Us|| user could follow site social accounts" name="User Follow Facebook" time="37.521">
 <system-out><![CDATA[Given user navigate to Home page............................................passed
 And user click on login.....................................................passed
 When user enter valid "test133@gmail.com" and valid "Qwert6613".............passed
@@ -205,7 +216,7 @@ When user click on facebook.................................................pass
 Then navigated to facebook "https://www.facebook.com/nopCommerce"...........passed
 ]]></system-out>
 </testcase>
-<testcase classname="Follow Us|| user could follow site social accounts" name="User Follow Twitter" time="27.021">
+<testcase classname="Follow Us|| user could follow site social accounts" name="User Follow Twitter" time="36.249">
 <system-out><![CDATA[Given user navigate to Home page............................................passed
 And user click on login.....................................................passed
 When user enter valid "test133@gmail.com" and valid "Qwert6613".............passed
@@ -215,7 +226,7 @@ When user click on twitter..................................................pass
 Then navigated to twitter "https://twitter.com/nopCommerce".................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Follow Us|| user could follow site social accounts" name="User Follow rss" time="22.684">
+<testcase classname="Follow Us|| user could follow site social accounts" name="User Follow rss" time="34.218">
 <failure message="Index: 1, Size: 1" type="java.lang.IndexOutOfBoundsException"><![CDATA[Given user navigate to Home page............................................passed
 And user click on login.....................................................passed
 When user enter valid "test133@gmail.com" and valid "Qwert6613".............passed
@@ -228,11 +239,11 @@ StackTrace:
 java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
 	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
 	at java.util.ArrayList.get(ArrayList.java:435)
-	at org.example.StepDefinition.D12_FollowUsStepDef.click_rss(D12_FollowUsStepDef.java:55)
+	at org.example.StepDefinition.D12_FollowUsStepDef.click_rss(D12_FollowUsStepDef.java:54)
 	at ✽.user click on rss(file:///C:/Users/Mohamed/IdeaProjects/demoNopcommerceProject/src/main/resources/features/F12_FollowUs.feature:20)
 ]]></failure>
 </testcase>
-<testcase classname="Follow Us|| user could follow site social accounts" name="User Follow youtube" time="35.335">
+<testcase classname="Follow Us|| user could follow site social accounts" name="User Follow youtube" time="67.993">
 <system-out><![CDATA[Given user navigate to Home page............................................passed
 And user click on login.....................................................passed
 When user enter valid "test133@gmail.com" and valid "Qwert6613".............passed

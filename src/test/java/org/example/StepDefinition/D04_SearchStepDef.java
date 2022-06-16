@@ -40,20 +40,22 @@ public class D04_SearchStepDef {
         System.out.println(resultproducts);
     }
 
-    @Then("user find one product")
-    public void user_find_one_product(){
+    @Then("^user find \"(.*)\" product$")
+    public void user_find_one_product(String found) throws InterruptedException {
         int numofProduct =Hooks.driver.findElements(By.cssSelector("h2[class=\"product-title\"]")).size();
         System.out.println(numofProduct);
         Assert.assertEquals(numofProduct,1);
         String url="https://demo.nopcommerce.com/search";
         Assert.assertTrue(Hooks.driver.getCurrentUrl().contains(url));
-        ArrayList<String> resultproducts;
-        resultproducts= new ArrayList();
+        ArrayList<String> resultproducts=new ArrayList();
         for (int n=0;n<numofProduct;n++){
             System.out.println(Hooks.driver.findElements(By.cssSelector("h2[class=\"product-title\"]")).get(n).getText());
             resultproducts.add(Hooks.driver.findElements(By.cssSelector("h2[class=\"product-title\"]")).get(n).getText());
         }
         System.out.println(resultproducts);
-
+        search.founded().click();
+        Thread.sleep(3000);
+        String actual=Hooks.driver.findElement(By.cssSelector("div[class=\"sku\"] span[class=\"value\"]")).getText();
+        Assert.assertTrue(actual.contains(found),"Right product founded");
     }
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="21" failures="2" name="org.example.Runner.Runner" time="643.873" errors="0" skipped="0">
+<testsuite tests="22" failures="2" name="org.example.Runner.Runner" time="1,032.723" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.1.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -64,23 +64,24 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="27.937"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="22.261"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="19.592"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="25.389"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="28.343"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="28.059"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="27.831"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="28.088"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="26.402"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="28.041"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="32.879"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="48.606"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="29.532"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="43.318"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="39.421"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="52.219"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="27.181">
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="98.002"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="37.528"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="23.235"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="28.377"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="34.919"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="33.052"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="35.053"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="43.795"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="54.827"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="45.284"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="51.96"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="48.166"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="58.84"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="42.846"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="56.132"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="54.423"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="66.574"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="43.602">
     <failure message="Error in product link expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Error in product link expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
@@ -108,23 +109,25 @@ Scenario: user could click on page sliders                        &amp;#27;[90m#
   &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser click on buton_two and click on slider_two&amp;#27;[0m            &amp;#27;[90m# org.example.StepDefinition.D11_SliderStepDef.click_slider_two()&amp;#27;[0m
   &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mshould navigated to the slider_product_two page&amp;#27;[0m             &amp;#27;[90m# org.example.StepDefinition.D11_SliderStepDef.navigated_slider_product_two()&amp;#27;[0m
 </system-out>
-    <system-err>Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 62684
+    <system-err>[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 102.0.5005.61 (resolved driver for Chrome 102)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Mohamed\.cache\selenium\chromedriver\win32\102.0.5005.61\chromedriver.exe
+Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 62130
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jun 15, 2022 12:39:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 16, 2022 2:04:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jun 15, 2022 12:39:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 16, 2022 2:04:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 102
 </system-err>
   </testcase>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="23.679"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="27.034"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="22.722">
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="37.552"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="36.278"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="34.238">
     <failure message="Index: 1, Size: 1" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
 	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
 	at java.util.ArrayList.get(ArrayList.java:435)
-	at org.example.StepDefinition.D12_FollowUsStepDef.click_rss(D12_FollowUsStepDef.java:55)
+	at org.example.StepDefinition.D12_FollowUsStepDef.click_rss(D12_FollowUsStepDef.java:54)
 	at ✽.user click on rss(file:///C:/Users/Mohamed/IdeaProjects/demoNopcommerceProject/src/main/resources/features/F12_FollowUs.feature:20)
 </failure>
     <system-out>
@@ -139,20 +142,22 @@ Scenario: User Follow rss                                                      &
       &amp;#27;[31mjava.lang.IndexOutOfBoundsException: Index: 1, Size: 1
 	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
 	at java.util.ArrayList.get(ArrayList.java:435)
-	at org.example.StepDefinition.D12_FollowUsStepDef.click_rss(D12_FollowUsStepDef.java:55)
+	at org.example.StepDefinition.D12_FollowUsStepDef.click_rss(D12_FollowUsStepDef.java:54)
 	at ✽.user click on rss(file:///C:/Users/Mohamed/IdeaProjects/demoNopcommerceProject/src/main/resources/features/F12_FollowUs.feature:20)
 &amp;#27;[0m
   &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mnavigated to rss &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mhttps://demo.nopcommerce.com/nopcommerce-new-release&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m &amp;#27;[90m# org.example.StepDefinition.D12_FollowUsStepDef.navigate_rss(java.lang.String)&amp;#27;[0m
 </system-out>
-    <system-err>Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 51570
+    <system-err>[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 102.0.5005.61 (resolved driver for Chrome 102)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Mohamed\.cache\selenium\chromedriver\win32\102.0.5005.61\chromedriver.exe
+Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 55509
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jun 15, 2022 12:40:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 16, 2022 2:05:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jun 15, 2022 12:40:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 16, 2022 2:05:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 102
 </system-err>
   </testcase>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="35.339"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="68.04"/>
 </testsuite>

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: org.example.Runner.Runner
 -------------------------------------------------------------------------------
-Tests run: 21, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 649.918 sec <<< FAILURE!
-runScenario(org.example.Runner.Runner)  Time elapsed: 27.181 sec  <<< FAILURE!
+Tests run: 22, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1,059.781 sec <<< FAILURE!
+runScenario(org.example.Runner.Runner)  Time elapsed: 43.602 sec  <<< FAILURE!
 java.lang.AssertionError: Error in product link expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
@@ -10,10 +10,10 @@ java.lang.AssertionError: Error in product link expected [true] but found [false
 	at org.example.StepDefinition.D11_SliderStepDef.navigated_slider_product_one(D11_SliderStepDef.java:22)
 	at ✽.should navigated to the slider_product_one page(file:///C:/Users/Mohamed/IdeaProjects/demoNopcommerceProject/src/main/resources/features/F11_Slider.feature:13)
 
-runScenario(org.example.Runner.Runner)  Time elapsed: 22.722 sec  <<< FAILURE!
+runScenario(org.example.Runner.Runner)  Time elapsed: 34.238 sec  <<< FAILURE!
 java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
 	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
 	at java.util.ArrayList.get(ArrayList.java:435)
-	at org.example.StepDefinition.D12_FollowUsStepDef.click_rss(D12_FollowUsStepDef.java:55)
+	at org.example.StepDefinition.D12_FollowUsStepDef.click_rss(D12_FollowUsStepDef.java:54)
 	at ✽.user click on rss(file:///C:/Users/Mohamed/IdeaProjects/demoNopcommerceProject/src/main/resources/features/F12_FollowUs.feature:20)
 

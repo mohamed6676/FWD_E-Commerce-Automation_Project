@@ -8,7 +8,6 @@ import java.util.ArrayList;
 
 public class D12_FollowUsStepDef {
     P12_FollowUsPage follow=new P12_FollowUsPage();
-
     @When("user click on facebook")
     public void click_facebook() throws InterruptedException {
         follow.facebook().click();
