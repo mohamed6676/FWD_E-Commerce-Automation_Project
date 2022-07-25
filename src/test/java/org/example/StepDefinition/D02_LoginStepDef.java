@@ -10,20 +10,22 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
+import java.util.concurrent.TimeUnit;
+
 public class D02_LoginStepDef {
     P02_LoginPage login=new P02_LoginPage();
 
     @Given("user navigate to Home page")
-    public void user_navigate_to_Home_page() throws InterruptedException {
+    public void user_navigate_to_Home_page(){
         String url = "https://demo.nopcommerce.com/";
         Hooks.driver.navigate().to(url);
-        Thread.sleep(2000);
+        Hooks.driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
     }
 
     @And("user click on login")
-    public void user_click_on_login() throws InterruptedException {
+    public void user_click_on_login(){
         login.login_link().click();
-        Thread.sleep(3000);
+        Hooks.driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
     }
 
     @When("^user enter valid \"(.*)\" and valid \"(.*)\"$")
@@ -37,8 +39,8 @@ public class D02_LoginStepDef {
     }
 
     @Then("user logged in successfully")
-    public void user_logged_in_successfully () throws InterruptedException {
-        Thread.sleep(2000);
+    public void user_logged_in_successfully (){
+        Hooks.driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         Assert.assertFalse(Hooks.driver.getCurrentUrl().contains("https://demo.nopcommerce.com/login?returnUrl=%2F/"));
         SoftAssert soft=new SoftAssert();
         soft.assertTrue(Hooks.driver.findElement(By.cssSelector("a[href=\"/customer/info\"][class=\"ico-account\"]")).isDisplayed());
@@ -47,8 +49,8 @@ public class D02_LoginStepDef {
     }
 
     @Then("user could not login")
-    public void user_could_not_login() throws InterruptedException {
-        Thread.sleep(1000);
+    public void user_could_not_login() {
+        Hooks.driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
         String mesage=login.errormessage().getText();
         SoftAssert soft=new SoftAssert();
         soft.assertTrue(mesage.contains("Login was unsuccessful. Please correct the errors and try again."));

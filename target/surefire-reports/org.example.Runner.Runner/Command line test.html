@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Command line test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>20/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>19/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jun 16 13:50:11 EET 2022</td>
+<td>Started on:</td><td>Mon Jun 20 14:27:37 EET 2022</td>
 </tr>
-<tr><td>Total time:</td><td>1044 seconds (1044353 ms)</td>
+<tr><td>Total time:</td><td>1439 seconds (1439647 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,19 +75,69 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could add products to wishlist", "Optional[WishList|| user could add products to the wishlist]"</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;NAYEL&apos;, ip: &apos;172.20.32.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7bdfe9252e8666c37fba3c543457432, clickElement {id=5ec59970-662c-47a7-9272-afc03a8c660f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Mohamed\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51756/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a7bdfe9252e8666c37fba3c543457432)] -&gt; css selector: a[href=&quot;/htc-one-m8-android-l-50-lollipop&quot;]]
+Session ID: a7bdfe9252e8666c37fba3c543457432
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.example.StepDefinition.D10_WishStepDef.click_on_HTC_One_M8_Android(D10_WishStepDef.java:15)
+	at ?.click on HTC_One_M8_Android(file:///C:/Users/Mohamed/IdeaProjects/demoNopcommerceProject/src/main/resources/features/F10_Wish.feature:12)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace913001083", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace913001083'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;NAYEL&apos;, ip: &apos;172.20.32.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7bdfe9252e8666c37fba3c543457432, clickElement {id=5ec59970-662c-47a7-9272-afc03a8c660f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Mohamed\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51756/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a7bdfe9252e8666c37fba3c543457432)] -&gt; css selector: a[href=&quot;/htc-one-m8-android-l-50-lollipop&quot;]]
+Session ID: a7bdfe9252e8666c37fba3c543457432
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.example.StepDefinition.D10_WishStepDef.click_on_HTC_One_M8_Android(D10_WishStepDef.java:15)
+	at ?.click on HTC_One_M8_Android(file:///C:/Users/Mohamed/IdeaProjects/demoNopcommerceProject/src/main/resources/features/F10_Wish.feature:12)
+</pre></div></td>
+<td>52</td>
+<td>org.example.Runner.Runner@8646db9</td></tr>
+<tr>
 <td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could click on page sliders", "Optional[Slider|| user could click on page sliders]"</td>
 <td><div><pre>java.lang.AssertionError: Error in product link expected [true] but found [false]
 	at org.example.StepDefinition.D11_SliderStepDef.navigated_slider_product_one(D11_SliderStepDef.java:22)
 	at ?.should navigated to the slider_product_one page(file:///C:/Users/Mohamed/IdeaProjects/demoNopcommerceProject/src/main/resources/features/F11_Slider.feature:13)
-... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace546704209", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace546704209'><pre>java.lang.AssertionError: Error in product link expected [true] but found [false]
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1557955737", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1557955737'><pre>java.lang.AssertionError: Error in product link expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertTrue(Assert.java:56)
 	at org.example.StepDefinition.D11_SliderStepDef.navigated_slider_product_one(D11_SliderStepDef.java:22)
 	at ?.should navigated to the slider_product_one page(file:///C:/Users/Mohamed/IdeaProjects/demoNopcommerceProject/src/main/resources/features/F11_Slider.feature:13)
 </pre></div></td>
-<td>43</td>
+<td>55</td>
 <td>org.example.Runner.Runner@8646db9</td></tr>
 <tr>
 <td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User Follow rss", "Optional[Follow Us|| user could follow site social accounts]"</td>
@@ -96,14 +146,14 @@ function toggleAllBoxes() {
 	at java.util.ArrayList.get(ArrayList.java:435)
 	at org.example.StepDefinition.D12_FollowUsStepDef.click_rss(D12_FollowUsStepDef.java:54)
 	at ?.user click on rss(file:///C:/Users/Mohamed/IdeaProjects/demoNopcommerceProject/src/main/resources/features/F12_FollowUs.feature:20)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1582967668", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1582967668'><pre>java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+</pre></div><a href='#' onClick='toggleBox("stack-trace685227371", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace685227371'><pre>java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
 	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
 	at java.util.ArrayList.get(ArrayList.java:435)
 	at org.example.StepDefinition.D12_FollowUsStepDef.click_rss(D12_FollowUsStepDef.java:54)
 	at ?.user click on rss(file:///C:/Users/Mohamed/IdeaProjects/demoNopcommerceProject/src/main/resources/features/F12_FollowUs.feature:20)
 </pre></div></td>
-<td>34</td>
+<td>46</td>
 <td>org.example.Runner.Runner@8646db9</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -114,24 +164,49 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could filter with color", "Optional[Filter with Color|| User could filter with color]"</td>
+<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could add products to the Cart", "Optional[Cart || user could add products to Shopping Cart]"</td>
 <td></td>
-<td>42</td>
+<td>100</td>
 <td>org.example.Runner.Runner@8646db9</td></tr>
 <tr>
 <td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could search products", "Optional[Search|| User could search of products]"</td>
 <td></td>
-<td>43</td>
+<td>66</td>
 <td>org.example.Runner.Runner@8646db9</td></tr>
 <tr>
 <td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could search products", "Optional[Search|| User could search of products]"</td>
 <td></td>
-<td>34</td>
+<td>70</td>
 <td>org.example.Runner.Runner@8646db9</td></tr>
 <tr>
-<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could reset his password", "Optional[Forgot Password|| User could reset his password]"</td>
+<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could register entering valid data", "Optional[Registeration|| user could register to the site]"</td>
 <td></td>
-<td>28</td>
+<td>71</td>
+<td>org.example.Runner.Runner@8646db9</td></tr>
+<tr>
+<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User Follow Facebook", "Optional[Follow Us|| user could follow site social accounts]"</td>
+<td></td>
+<td>68</td>
+<td>org.example.Runner.Runner@8646db9</td></tr>
+<tr>
+<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could search products", "Optional[Search|| User could search of products]"</td>
+<td></td>
+<td>56</td>
+<td>org.example.Runner.Runner@8646db9</td></tr>
+<tr>
+<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could search products", "Optional[Search|| User could search of products]"</td>
+<td></td>
+<td>72</td>
+<td>org.example.Runner.Runner@8646db9</td></tr>
+<tr>
+<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could login with invalid data", "Optional[Login|| user could login to the site]"</td>
+<td></td>
+<td>38</td>
+<td>org.example.Runner.Runner@8646db9</td></tr>
+<tr>
+<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User Follow Twitter", "Optional[Follow Us|| user could follow site social accounts]"</td>
+<td></td>
+<td>78</td>
 <td>org.example.Runner.Runner@8646db9</td></tr>
 <tr>
 <td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could search products", "Optional[Search|| User could search of products]"</td>
@@ -139,39 +214,19 @@ function toggleAllBoxes() {
 <td>51</td>
 <td>org.example.Runner.Runner@8646db9</td></tr>
 <tr>
-<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could choose different categories", "Optional[Choosing Categories|| User could choose different categories]"</td>
-<td></td>
-<td>58</td>
-<td>org.example.Runner.Runner@8646db9</td></tr>
-<tr>
-<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User Follow youtube", "Optional[Follow Us|| user could follow site social accounts]"</td>
-<td></td>
-<td>68</td>
-<td>org.example.Runner.Runner@8646db9</td></tr>
-<tr>
-<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could register entering valid data", "Optional[Registeration|| user could register to the site]"</td>
-<td></td>
-<td>97</td>
-<td>org.example.Runner.Runner@8646db9</td></tr>
-<tr>
-<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User Follow Facebook", "Optional[Follow Us|| user could follow site social accounts]"</td>
-<td></td>
-<td>37</td>
-<td>org.example.Runner.Runner@8646db9</td></tr>
-<tr>
 <td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could search products", "Optional[Search|| User could search of products]"</td>
 <td></td>
-<td>33</td>
+<td>57</td>
 <td>org.example.Runner.Runner@8646db9</td></tr>
 <tr>
-<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "logged user could switch between currencies", "Optional[Switch Currency|| user could switch between currencies]"</td>
+<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could choose different categories", "Optional[Choosing Categories|| User could choose different categories]"</td>
 <td></td>
-<td>48</td>
+<td>78</td>
 <td>org.example.Runner.Runner@8646db9</td></tr>
 <tr>
-<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could login with invalid data", "Optional[Login|| user could login to the site]"</td>
+<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could select different tags on the site", "Optional[Different Tags|| user could select different tags]"</td>
 <td></td>
-<td>23</td>
+<td>77</td>
 <td>org.example.Runner.Runner@8646db9</td></tr>
 <tr>
 <td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could login with valid data", "Optional[Login|| user could login to the site]"</td>
@@ -179,39 +234,29 @@ function toggleAllBoxes() {
 <td>37</td>
 <td>org.example.Runner.Runner@8646db9</td></tr>
 <tr>
-<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could add products to wishlist", "Optional[WishList|| user could add products to the wishlist]"</td>
+<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could reset his password", "Optional[Forgot Password|| User could reset his password]"</td>
 <td></td>
-<td>66</td>
+<td>41</td>
+<td>org.example.Runner.Runner@8646db9</td></tr>
+<tr>
+<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User Follow youtube", "Optional[Follow Us|| user could follow site social accounts]"</td>
+<td></td>
+<td>110</td>
 <td>org.example.Runner.Runner@8646db9</td></tr>
 <tr>
 <td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could search products", "Optional[Search|| User could search of products]"</td>
+<td></td>
+<td>69</td>
+<td>org.example.Runner.Runner@8646db9</td></tr>
+<tr>
+<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could filter with color", "Optional[Filter with Color|| User could filter with color]"</td>
 <td></td>
 <td>54</td>
 <td>org.example.Runner.Runner@8646db9</td></tr>
 <tr>
-<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could search products", "Optional[Search|| User could search of products]"</td>
+<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "logged user could switch between currencies", "Optional[Switch Currency|| user could switch between currencies]"</td>
 <td></td>
-<td>35</td>
-<td>org.example.Runner.Runner@8646db9</td></tr>
-<tr>
-<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logged user could search products", "Optional[Search|| User could search of products]"</td>
-<td></td>
-<td>45</td>
-<td>org.example.Runner.Runner@8646db9</td></tr>
-<tr>
-<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User Follow Twitter", "Optional[Follow Us|| user could follow site social accounts]"</td>
-<td></td>
-<td>36</td>
-<td>org.example.Runner.Runner@8646db9</td></tr>
-<tr>
-<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could select different tags on the site", "Optional[Different Tags|| user could select different tags]"</td>
-<td></td>
-<td>56</td>
-<td>org.example.Runner.Runner@8646db9</td></tr>
-<tr>
-<td title='org.example.Runner.Runner.runScenario()'><b>runScenario</b><br>Test class: org.example.Runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user could add products to the Cart", "Optional[Cart || user could add products to Shopping Cart]"</td>
-<td></td>
-<td>54</td>
+<td>77</td>
 <td>org.example.Runner.Runner@8646db9</td></tr>
 </table><p>
 </body>

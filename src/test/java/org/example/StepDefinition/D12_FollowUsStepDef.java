@@ -68,7 +68,7 @@ public class D12_FollowUsStepDef {
     @When("user click on youtube")
     public void click_youtube() throws InterruptedException {
         follow.youtube().click();
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         ArrayList<String> tabs=new ArrayList<>(Hooks.driver.getWindowHandles());
         Hooks.driver.switchTo().window(tabs.get(1));
         System.out.println(Hooks.driver.getCurrentUrl());

@@ -21,8 +21,7 @@ public class Hooks {
     }
 
     @After
-    public static void quit_browser() throws InterruptedException {
-        Thread.sleep(3000);
+    public static void quit_browser(){
         driver.quit();
     }
 }

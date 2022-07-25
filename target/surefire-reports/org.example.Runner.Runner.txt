@@ -1,8 +1,34 @@
 -------------------------------------------------------------------------------
 Test set: org.example.Runner.Runner
 -------------------------------------------------------------------------------
-Tests run: 22, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1,059.781 sec <<< FAILURE!
-runScenario(org.example.Runner.Runner)  Time elapsed: 43.602 sec  <<< FAILURE!
+Tests run: 22, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 1,446.046 sec <<< FAILURE!
+runScenario(org.example.Runner.Runner)  Time elapsed: 52.051 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'NAYEL', ip: '172.20.32.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7bdfe9252e8666c37fba3c543457432, clickElement {id=5ec59970-662c-47a7-9272-afc03a8c660f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Mohamed\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51756/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a7bdfe9252e8666c37fba3c543457432)] -> css selector: a[href="/htc-one-m8-android-l-50-lollipop"]]
+Session ID: a7bdfe9252e8666c37fba3c543457432
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.example.StepDefinition.D10_WishStepDef.click_on_HTC_One_M8_Android(D10_WishStepDef.java:15)
+	at ✽.click on HTC_One_M8_Android(file:///C:/Users/Mohamed/IdeaProjects/demoNopcommerceProject/src/main/resources/features/F10_Wish.feature:12)
+
+runScenario(org.example.Runner.Runner)  Time elapsed: 55.21 sec  <<< FAILURE!
 java.lang.AssertionError: Error in product link expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
@@ -10,7 +36,7 @@ java.lang.AssertionError: Error in product link expected [true] but found [false
 	at org.example.StepDefinition.D11_SliderStepDef.navigated_slider_product_one(D11_SliderStepDef.java:22)
 	at ✽.should navigated to the slider_product_one page(file:///C:/Users/Mohamed/IdeaProjects/demoNopcommerceProject/src/main/resources/features/F11_Slider.feature:13)
 
-runScenario(org.example.Runner.Runner)  Time elapsed: 34.238 sec  <<< FAILURE!
+runScenario(org.example.Runner.Runner)  Time elapsed: 46.908 sec  <<< FAILURE!
 java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
 	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
 	at java.util.ArrayList.get(ArrayList.java:435)

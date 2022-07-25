@@ -3,10 +3,10 @@ Feature: Cart || user could add products to Shopping Cart
 
   Background: user could login with valid data
     Given user navigate to Home page
-#    And user click on login
-#    When user enter valid "test133@gmail.com" and valid "Qwert6613"
-#    And user clicks login button
-#    Then user logged in successfully
+    And user click on login
+    When user enter valid "test133@gmail.com" and valid "Qwert6613"
+    And user clicks login button
+    Then user logged in successfully
 
   Scenario: user could add products to the Cart
     Given user go to home page

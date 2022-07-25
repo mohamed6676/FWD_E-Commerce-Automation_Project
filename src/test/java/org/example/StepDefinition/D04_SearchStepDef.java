@@ -7,6 +7,7 @@ import org.example.Pages.P04_Search;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import java.util.ArrayList;
+import java.util.concurrent.TimeUnit;
 import static org.openqa.selenium.Keys.ENTER;
 
 public class D04_SearchStepDef {
@@ -18,10 +19,10 @@ public class D04_SearchStepDef {
     }
 
     @And("^user enter \"(.*)\" to search$")
-    public void user_enter_the_name_of_product(String searchname) throws InterruptedException {
+    public void user_enter_the_name_of_product(String searchname){
         search.searchfield().sendKeys(searchname);
         search.searchbtn().sendKeys(ENTER);
-        Thread.sleep(5000);
+        Hooks.driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
     @Then("user find the product and relative products")
@@ -41,7 +42,7 @@ public class D04_SearchStepDef {
     }
 
     @Then("^user find \"(.*)\" product$")
-    public void user_find_one_product(String found) throws InterruptedException {
+    public void user_find_one_product(String found){
         int numofProduct =Hooks.driver.findElements(By.cssSelector("h2[class=\"product-title\"]")).size();
         System.out.println(numofProduct);
         Assert.assertEquals(numofProduct,1);
@@ -54,7 +55,7 @@ public class D04_SearchStepDef {
         }
         System.out.println(resultproducts);
         search.founded().click();
-        Thread.sleep(3000);
+        Hooks.driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         String actual=Hooks.driver.findElement(By.cssSelector("div[class=\"sku\"] span[class=\"value\"]")).getText();
         Assert.assertTrue(actual.contains(found),"Right product founded");
     }

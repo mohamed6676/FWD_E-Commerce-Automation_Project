@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="22" failures="2" name="org.example.Runner.Runner" time="1,032.723" errors="0" skipped="0">
+<testsuite tests="22" failures="3" name="org.example.Runner.Runner" time="1,432.621" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.1.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -64,24 +64,114 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="98.002"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="37.528"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="23.235"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="28.377"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="34.919"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="33.052"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="35.053"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="43.795"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="54.827"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="45.284"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="51.96"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="48.166"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="58.84"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="42.846"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="56.132"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="54.423"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="66.574"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="43.602">
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="71.57"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="37.678"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="38.662"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="41.699"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="57.275"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="51.088"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="56.329"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="66.673"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="69.465"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="72.542"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="70.185"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="77.462"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="78.403"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="54.288"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="77.474"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="100.752"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="52.051">
+    <failure message="element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;NAYEL&apos;, ip: &apos;172.20.32.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7bdfe9252e8666c37fba3c543457432, clickElement {id=5ec59970-662c-47a7-9272-afc03a8c660f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Mohamed\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51756/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a7bdfe9252e8666c37fba3c543457432)] -&gt; css selector: a[href=&quot;/htc-one-m8-android-l-50-lollipop&quot;]]
+Session ID: a7bdfe9252e8666c37fba3c543457432" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;NAYEL&apos;, ip: &apos;172.20.32.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7bdfe9252e8666c37fba3c543457432, clickElement {id=5ec59970-662c-47a7-9272-afc03a8c660f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Mohamed\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51756/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a7bdfe9252e8666c37fba3c543457432)] -&gt; css selector: a[href=&quot;/htc-one-m8-android-l-50-lollipop&quot;]]
+Session ID: a7bdfe9252e8666c37fba3c543457432
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.example.StepDefinition.D10_WishStepDef.click_on_HTC_One_M8_Android(D10_WishStepDef.java:15)
+	at ✽.click on HTC_One_M8_Android(file:///C:/Users/Mohamed/IdeaProjects/demoNopcommerceProject/src/main/resources/features/F10_Wish.feature:12)
+</failure>
+    <system-out>
+@Runner
+Scenario: user could add products to wishlist                     &amp;#27;[90m# src/main/resources/features/F10_Wish.feature:11&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32muser navigate to Home page&amp;#27;[0m                                &amp;#27;[90m# org.example.StepDefinition.D02_LoginStepDef.user_navigate_to_Home_page()&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32muser click on login&amp;#27;[0m                                         &amp;#27;[90m# org.example.StepDefinition.D02_LoginStepDef.user_click_on_login()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32muser enter valid &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mtest133@gmail.com&amp;#27;[0m&amp;#27;[32m&quot; and valid &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mQwert6613&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m &amp;#27;[90m# org.example.StepDefinition.D02_LoginStepDef.user_enter_valid_email(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32muser clicks login button&amp;#27;[0m                                    &amp;#27;[90m# org.example.StepDefinition.D02_LoginStepDef.user_clicks_login_button()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32muser logged in successfully&amp;#27;[0m                                &amp;#27;[90m# org.example.StepDefinition.D02_LoginStepDef.user_logged_in_successfully()&amp;#27;[0m
+  &amp;#27;[31mWhen &amp;#27;[0m&amp;#27;[31mclick on HTC_One_M8_Android&amp;#27;[0m                                &amp;#27;[90m# org.example.StepDefinition.D10_WishStepDef.click_on_HTC_One_M8_Android()&amp;#27;[0m
+      &amp;#27;[31morg.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;4.1.4&apos;, revision: &apos;535d840ee2&apos;
+System info: host: &apos;NAYEL&apos;, ip: &apos;172.20.32.1&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_333&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7bdfe9252e8666c37fba3c543457432, clickElement {id=5ec59970-662c-47a7-9272-afc03a8c660f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Mohamed\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51756/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a7bdfe9252e8666c37fba3c543457432)] -&gt; css selector: a[href=&quot;/htc-one-m8-android-l-50-lollipop&quot;]]
+Session ID: a7bdfe9252e8666c37fba3c543457432
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.example.StepDefinition.D10_WishStepDef.click_on_HTC_One_M8_Android(D10_WishStepDef.java:15)
+	at ✽.click on HTC_One_M8_Android(file:///C:/Users/Mohamed/IdeaProjects/demoNopcommerceProject/src/main/resources/features/F10_Wish.feature:12)
+&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36madd HTC_One_M8_Android to wishlist&amp;#27;[0m                          &amp;#27;[90m# org.example.StepDefinition.D10_WishStepDef.add_HTC_One_M8_Android_to_wishlist()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36msuccess message appears__1&amp;#27;[0m                                 &amp;#27;[90m# org.example.StepDefinition.D10_WishStepDef.success_message_appears__1()&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mclick on Portable_Sound_Speakers&amp;#27;[0m                           &amp;#27;[90m# org.example.StepDefinition.D10_WishStepDef.click_on_Portable_Sound_Speakers()&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36madd Portable_Sound_Speakers to wishlist&amp;#27;[0m                     &amp;#27;[90m# org.example.StepDefinition.D10_WishStepDef.add_Portable_Sound_Speakers_to_wishlist()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36msuccess message appears__2&amp;#27;[0m                                 &amp;#27;[90m# org.example.StepDefinition.D10_WishStepDef.success_message_appears__2()&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mgo to digital_downloads&amp;#27;[0m                                    &amp;#27;[90m# org.example.StepDefinition.D10_WishStepDef.go_to_digital_downloads()&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mclick on Science_and_Faith&amp;#27;[0m                                  &amp;#27;[90m# org.example.StepDefinition.D10_WishStepDef.click_on_Science_and_Faith()&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mfill mandatory field&amp;#27;[0m                                        &amp;#27;[90m# org.example.StepDefinition.D10_WishStepDef.fill_mandatory_field()&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mclick on add_to_wishlist&amp;#27;[0m                                    &amp;#27;[90m# org.example.StepDefinition.D10_WishStepDef.click_on_add_to_wishlist()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36msuccess message appears__3&amp;#27;[0m                                 &amp;#27;[90m# org.example.StepDefinition.D10_WishStepDef.success_message_appears__3()&amp;#27;[0m
+</system-out>
+    <system-err>[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 102.0.5005.61 (resolved driver for Chrome 102)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Mohamed\.cache\selenium\chromedriver\win32\102.0.5005.61\chromedriver.exe
+Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 63130
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 20, 2022 2:44:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jun 20, 2022 2:44:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 102
+</system-err>
+  </testcase>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="55.21">
     <failure message="Error in product link expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Error in product link expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
@@ -111,19 +201,19 @@ Scenario: user could click on page sliders                        &amp;#27;[90m#
 </system-out>
     <system-err>[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 102.0.5005.61 (resolved driver for Chrome 102)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Mohamed\.cache\selenium\chromedriver\win32\102.0.5005.61\chromedriver.exe
-Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 62130
+Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 49863
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jun 16, 2022 2:04:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 20, 2022 2:45:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jun 16, 2022 2:04:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 20, 2022 2:45:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 102
 </system-err>
   </testcase>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="37.552"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="36.278"/>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="34.238">
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="68.21"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="78.677"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="46.908">
     <failure message="Index: 1, Size: 1" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
 	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
 	at java.util.ArrayList.get(ArrayList.java:435)
@@ -149,15 +239,15 @@ Scenario: User Follow rss                                                      &
 </system-out>
     <system-err>[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 102.0.5005.61 (resolved driver for Chrome 102)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Mohamed\.cache\selenium\chromedriver\win32\102.0.5005.61\chromedriver.exe
-Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 55509
+Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 52044
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jun 16, 2022 2:05:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 20, 2022 2:49:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jun 16, 2022 2:05:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jun 20, 2022 2:49:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 102
 </system-err>
   </testcase>
-  <testcase classname="org.example.Runner.Runner" name="runScenario" time="68.04"/>
+  <testcase classname="org.example.Runner.Runner" name="runScenario" time="110.02"/>
 </testsuite>

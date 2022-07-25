@@ -7,11 +7,12 @@ import org.openqa.selenium.interactions.Actions;
 
 public class P06_DifferentCatPage {
 
-    public WebElement computersthensoftware(){
+    public WebElement computersthensoftware() throws InterruptedException {
         By comp= By.xpath("//ul[@class=\"top-menu notmobile\"]//li//a[@href=\"/computers\"]");
         WebElement computers=Hooks.driver.findElement(comp);
         Actions action = new Actions(Hooks.driver);
         action.moveToElement(computers).build().perform();
+        Thread.sleep(1000);
         By soft=By.xpath("//ul[@class=\"sublist first-level\"]//li//a[@href=\"/software\"]");
         WebElement software=Hooks.driver.findElement(soft);
         action.moveToElement(software).click().build().perform();

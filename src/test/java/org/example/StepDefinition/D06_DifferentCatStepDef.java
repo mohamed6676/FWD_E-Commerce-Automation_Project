@@ -17,7 +17,7 @@ public class D06_DifferentCatStepDef {
         Thread.sleep(3000);
         String expected="Software";
         String actual=Hooks.driver.findElement(By.xpath("//div[@class=\"page-title\"]//h1")).getText();
-        Assert.assertTrue(actual.contains(expected),"Actual result is same as expected");
+        Assert.assertTrue(actual.contains(expected));
         Assert.assertTrue(Hooks.driver.getCurrentUrl().contains("https://demo.nopcommerce.com/software"));
     }
 
